@@ -14,10 +14,8 @@ from Xlib to XCB. Many of the original monsterwm patches have been ported as
 well.
 
 All settings must be set at compile time by editing `config.h` and it does not
-feature a status bar (but supports leaving preconfigured space for one). I
-prepared a few scripts for different bars [here][sb].
-
-  [sb]: https://gist.github.com/sulami/d6a53179d6d7479e0709
+feature a status bar (but supports leaving preconfigured space for one). I use
+my own dzen2 script to make it possible
 
 Installation
 ------------
@@ -91,4 +89,3 @@ Inspiration from:
   [dwm]:  http://dwm.suckless.org/
   [baskerville]: https://github.com/baskerville
   [bspwm]: https://github.com/baskerville/bspwm
-
